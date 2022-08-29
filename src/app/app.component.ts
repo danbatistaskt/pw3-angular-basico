@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'pw3-angular-basico';
+  ListaCurso: string[] = ['Turismo', 'Educação Física', 'Desenvolvimento de Sistemas'];
+  constructor() {
+
+    for(let item of this.ListaCurso){
+
+      console.log(item);
+    }
+
+  }
 }
